@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/eukabuka/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["rust.vim"] = {
+    loaded = true,
+    path = "/home/eukabuka/.local/share/nvim/site/pack/packer/start/rust.vim",
+    url = "https://github.com/rust-lang/rust.vim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/eukabuka/.local/share/nvim/site/pack/packer/start/telescope.nvim",
