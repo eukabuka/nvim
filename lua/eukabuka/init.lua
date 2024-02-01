@@ -1,8 +1,9 @@
 require('eukabuka.remap')
-print('hello from eukabuka')
 
 vim.cmd('set nu')
 vim.cmd('set rnu')
+vim.cmd('set so=999')
+vim.cmd('set cursorline')
 
 vim.o.background = "dark" -- or "light" for light mode
 require("gruvbox").setup({
