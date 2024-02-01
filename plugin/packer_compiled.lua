@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/eukabuka/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ZoomWin = {
+    loaded = true,
+    path = "/home/eukabuka/.local/share/nvim/site/pack/packer/start/ZoomWin",
+    url = "https://github.com/vim-scripts/ZoomWin"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/eukabuka/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",

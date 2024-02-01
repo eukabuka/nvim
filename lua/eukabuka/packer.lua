@@ -56,5 +56,6 @@ return require('packer').startup(function(use)
   use ('nvim-tree/nvim-web-devicons')
   use ('majutsushi/tagbar')
   use ('airblade/vim-gitgutter')
+  use ('vim-scripts/ZoomWin')
 
 end)
