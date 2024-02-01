@@ -57,5 +57,6 @@ return require('packer').startup(function(use)
   use ('majutsushi/tagbar')
   use ('airblade/vim-gitgutter')
   use ('vim-scripts/ZoomWin')
+  use ('bronson/vim-trailing-whitespace')
 
 end)
