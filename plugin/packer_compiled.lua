@@ -144,6 +144,11 @@ _G.packer_plugins = {
     path = "/home/eukabuka/.local/share/nvim/site/pack/packer/start/rust.vim",
     url = "https://github.com/rust-lang/rust.vim"
   },
+  tagbar = {
+    loaded = true,
+    path = "/home/eukabuka/.local/share/nvim/site/pack/packer/start/tagbar",
+    url = "https://github.com/majutsushi/tagbar"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/eukabuka/.local/share/nvim/site/pack/packer/start/telescope.nvim",
