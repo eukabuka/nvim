@@ -1,5 +1,13 @@
 require('eukabuka.remap')
 
+-- Restore cursor position
+vim.api.nvim_create_autocmd({ "BufReadPost" }, {
+    pattern = { "*" },
+    callback = function()
+        vim.api.nvim_exec('silent! normal! g`"zv', false)
+    end,
+})
+
 vim.cmd('set nu')
 vim.cmd('set rnu')
 vim.cmd('set so=999')
