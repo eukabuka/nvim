@@ -159,6 +159,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/eukabuka/.local/share/nvim/site/pack/packer/start/unimpaired.nvim",
     url = "https://github.com/tummetott/unimpaired.nvim"
+  },
+  ["vim-gitgutter"] = {
+    loaded = true,
+    path = "/home/eukabuka/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
+    url = "https://github.com/airblade/vim-gitgutter"
   }
 }
 
