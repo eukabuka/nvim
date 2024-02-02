@@ -1,6 +1,6 @@
 require('eukabuka.remap')
 
--- Restore cursor position
+-- Restore cursor position upon re-opening a file.
 vim.api.nvim_create_autocmd({ "BufReadPost" }, {
     pattern = { "*" },
     callback = function()
@@ -8,11 +8,13 @@ vim.api.nvim_create_autocmd({ "BufReadPost" }, {
     end,
 })
 
+-- Numbering and cursorline.
 vim.cmd('set nu')
 vim.cmd('set rnu')
 vim.cmd('set so=999')
 vim.cmd('set cursorline')
 
+-- Color scheme.
 vim.o.background = "dark" -- or "light" for light mode
 require("gruvbox").setup({
   terminal_colors = true, -- add neovim terminal colors
