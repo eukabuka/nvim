@@ -37,7 +37,6 @@ return require('packer').startup(function(use)
   use ('williamboman/mason.nvim')
   use ('williamboman/mason-lspconfig.nvim')
   use ('rust-lang/rust.vim')
- 
   use {
 	  'tummetott/unimpaired.nvim',
 	  config = function()
@@ -58,5 +57,11 @@ return require('packer').startup(function(use)
   use ('airblade/vim-gitgutter')
   use ('vim-scripts/ZoomWin')
   use ('bronson/vim-trailing-whitespace')
+  use {
+    'numToStr/Comment.nvim',
+    config = function()
+        require('Comment').setup()
+    end
+  }
 
 end)
