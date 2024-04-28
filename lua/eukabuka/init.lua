@@ -13,6 +13,8 @@ vim.cmd('set nu')
 vim.cmd('set rnu')
 vim.cmd('set so=999')
 vim.cmd('set cursorline')
+-- install "xclip"
+vim.opt.clipboard="unnamedplus"
 
 -- Color scheme.
 vim.o.background = "dark" -- or "light" for light mode
